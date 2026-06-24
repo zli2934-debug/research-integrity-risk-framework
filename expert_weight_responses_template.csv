@@ -1,0 +1,4 @@
+ExpertID,Field,Role,ExperienceBand,M1,M2,M3,M4,M5,M6,M7,M8,M9,Notes
+E01,Biomedical,Faculty,5-10 years,20,7,15,18,10,7,10,8,5,Synthetic example
+E02,Statistics,Faculty,10+ years,8,14,22,16,12,8,10,7,3,Synthetic example
+E03,Research Integrity,Compliance,5-10 years,12,6,12,14,8,6,18,14,10,Synthetic example

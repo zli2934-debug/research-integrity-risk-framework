@@ -1,0 +1,4 @@
+SourceType,FindingFromLiterature,SupportedModelImplication,AffectedModules,UseInSimulation,BoundaryNote
+Publication ethics guideline,Retraction corrects the literature and does not primarily punish authors,Keep C7 and avoid retraction=misconduct inference,"C4,C5,C7,M7",Yes,"Guideline informs safeguards, not final case labels"
+Retraction reason taxonomy,"Reasons include results/conclusions, third-party, peer review, plagiarism, data/image issues","Increase attention to M1,M3,M4,M7 while preserving source verification","M1,M3,M4,M7",Yes,Keyword categories can misclassify context
+Delphi method literature,Iterative anonymous expert feedback supports consensus-building when direct empirical evidence is incomplete,Use Round1/Round2 simulated workflow and future real expert protocol,All weights,Yes,Simulated Delphi is workflow rehearsal only

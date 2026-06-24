@@ -1,0 +1,5 @@
+CaseID,Description,M1,M2,M3,M4,M5,M6,M7,M8,M9,ExpectedBoundaryNote
+SENS-01,Image/raw-data driven experimental concern,4,1,3,4,2,2,1,0,0,Likely stable under biomedical profile; still not misconduct without official record
+SENS-02,Clinical/statistical concern with limited image evidence,0,4,4,3,3,2,1,0,0,More sensitive to clinical_epidemiology profile
+SENS-03,Author-history/database-heavy review case,1,0,1,1,1,1,3,4,3,Sensitive to author_history_review profile; name/identity must be independently verified
+SENS-04,Boundary case near C1/C2 threshold,2,1,2,1,1,1,0,0,0,May cross C1/C2 depending on weights

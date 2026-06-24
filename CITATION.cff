@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this framework, please cite this repository."
+title: "Research Integrity Risk Framework"
+version: "1.1-prep.1"
+authors:
+  - family-names: "Li"
+    given-names: "Zihao"
+license: "MIT AND CC-BY-4.0"
+abstract: "An open-source framework for research integrity risk assessment using modular scoring, formal logic safeguards, database evidence organization, synthetic benchmarks, real-case validation infrastructure, method-paper scaffolds, weight sensitivity analysis, expert review / calibration protocol infrastructure, and literature-informed simulated expert-review workflow placeholders. Code is licensed under MIT; documentation, templates, and manuscript drafts are licensed under CC BY 4.0."

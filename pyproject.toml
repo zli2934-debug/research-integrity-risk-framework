@@ -1,0 +1,11 @@
+[project]
+name = "research-integrity-risk-framework"
+version = "1.1.0a1"
+description = "A framework for research integrity risk assessment, including scoring, database integration, validation infrastructure, sensitivity analysis, expert review protocol, and release audit utilities and simulated expert-review workflow scaffolds."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT for code; CC BY 4.0 for documentation/templates"}
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

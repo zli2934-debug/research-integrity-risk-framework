@@ -1,0 +1,6 @@
+ClaimID,ManuscriptSection,ClaimText,SourceNeeded,ProposedSource,VerificationStatus,SupportsClaim,Notes
+CIT-001,Introduction,Retraction records can be used as external research-integrity evidence,Primary data-source documentation,Crossref Retraction Watch data,TBD,TBD,Verify terms and scope before citation
+CIT-002,Methods,Weights are pilot expert-prior weights rather than validated optimal weights,Methodology/statistical source,Expert elicitation or Delphi-method reference,TBD,TBD,Needed for weighting-method justification
+CIT-003,Methods,Formal records should not be treated as personal misconduct determinations without official wording,Publication ethics guidance,COPE or institutional guidance,TBD,TBD,Use official guidance where possible
+CIT-004,Limitations,Author-name matching does not confirm same-author identity,Identity-disambiguation source,Author-name disambiguation literature,TBD,TBD,Important for database-search boundary
+CIT-005,Future Validation,Sensitivity analysis and benchmark cases are required for empirical calibration,Validation-method source,Risk-model validation literature,TBD,TBD,Needed before empirical claims
