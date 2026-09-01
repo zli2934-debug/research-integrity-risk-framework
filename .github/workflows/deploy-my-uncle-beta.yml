@@ -1,0 +1,37 @@
+name: Deploy My Uncle Red Notes Beta
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'beta/my-uncle-red-notes/**'
+      - '.github/workflows/deploy-my-uncle-beta.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload beta artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: beta/my-uncle-red-notes
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
